@@ -35,10 +35,8 @@ fun TataletakColumn(modifier: Modifier) {
 
 @Composable
 fun TataletakRow(modifier: Modifier) {
-    Row(
-        modifier = modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceEvenly
-    ) {
+    Row(modifier = modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceEvenly) {
         Text(text = "Komponen1")
         Text(text = "Komponen2")
         Text(text = "Komponen3")
@@ -51,8 +49,7 @@ fun TataletakBox(modifier: Modifier) {
     Box(
         modifier = modifier
             .fillMaxHeight()
-            .fillMaxWidth(),
-        contentAlignment = Alignment.Center
+            .fillMaxWidth(), contentAlignment = Alignment.Center
     ) {
         Text(text = "Box 1")
         Text(text = "Column 1")
@@ -66,19 +63,15 @@ fun TataletakBox(modifier: Modifier) {
 fun TataletakColumnRow(modifier: Modifier) {
     Column() {
         //Baris1
-        Row(
-            modifier = modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceEvenly
-        ) {
+        Row(modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly) {
             Text(text = "Komponen1Baris1")
             Text(text = "Komponen2Baris1")
             Text(text = "Komponen3Baris1")
         }
         //Baris2
-        Row(
-            modifier = modifier.fillMaxWidth(),
-            horizontalArrangement = Arrangement.SpaceEvenly
-        ) {
+        Row(modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly) {
             Text(text = "Komponen1Baris2")
             Text(text = "Komponen2Baris2")
             Text(text = "Komponen3Baris2")
@@ -88,10 +81,7 @@ fun TataletakColumnRow(modifier: Modifier) {
 
 @Composable
 fun TataletakRowColumn(modifier: Modifier) {
-    Row(
-        modifier = modifier.fillMaxWidth(),
-        horizontalArrangement = Arrangement.SpaceEvenly
-    ) {
+    Row(modifier = modifier.fillMaxWidth(), horizontalArrangement = Arrangement.SpaceEvenly) {
         //Kolom1
         Column() {
             Text(text = "Komponen1Kolom1")
@@ -146,5 +136,10 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
             contentAlignment = Alignment.Center
         ) {
         }
+        Image(
+            painter = gambar,
+            contentDescription = null,
+            contentScale = ContentScale.Fit)
+
     }
 }
