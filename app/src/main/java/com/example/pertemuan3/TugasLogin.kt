@@ -27,5 +27,13 @@ import androidx.compose.ui.unit.sp
 @Composable
 fun HalamanLogin(modifier: Modifier = Modifier) {
     Box(modifier = modifier.fillMaxSize()) {
+
+        Image(
+            painter = painterResource(id = R.drawable.background),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
     }
 }
+
