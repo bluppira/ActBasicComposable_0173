@@ -83,7 +83,7 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 contentDescription = null,
                 contentScale = ContentScale.Fit,
                 modifier = Modifier
-                    .size(300.dp)
+                    .size(150.dp)
                     .clip(CircleShape)
                     .border(width = 4.dp, color = Color.White, shape = CircleShape)
                     .background(Color(0xFFE8E8F5))
