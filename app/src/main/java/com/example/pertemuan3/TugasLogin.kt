@@ -47,6 +47,11 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.White
             )
+            Text(
+                text = "Selamat datang di halaman login,",
+                fontSize = 14.sp,
+                color = Color.White
+            )
         }
     }
 }
