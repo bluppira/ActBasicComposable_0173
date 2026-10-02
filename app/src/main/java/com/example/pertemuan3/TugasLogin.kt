@@ -52,6 +52,14 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontSize = 14.sp,
                 color = Color.White
             )
+
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.james),
+                contentDescription = null,
+                modifier = Modifier.size(150.dp)
+            )
         }
     }
 }
