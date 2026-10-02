@@ -93,6 +93,8 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 modifier = Modifier
                     .size(300.dp)
                     .clip(CircleShape)
+                    .border(width = 4.dp, color = Color.White, shape = CircleShape)
+                    .background(Color(0xFFE8E8F5))
             )
         }
     }
