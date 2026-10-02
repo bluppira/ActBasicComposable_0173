@@ -34,6 +34,14 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
             contentScale = ContentScale.Crop,
             modifier = Modifier.fillMaxSize()
         )
+
+        Column(
+            modifier = Modifier
+                .fillMaxSize()
+                .padding(top = 24.dp),
+            horizontalAlignment = Alignment.CenterHorizontally
+        ) {
+        }
     }
 }
 
