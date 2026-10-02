@@ -22,6 +22,7 @@ import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import androidx.compose.ui.tooling.preview.Preview
 
 @Composable
 fun TataletakColumn(modifier: Modifier) {
@@ -147,4 +148,10 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                     alignment = Alignment.Center))
         }
     }
+}
+
+@Preview(showBackground = true)
+@Composable
+fun TataletakPreview() {
+    TataletakBoxColumnRow(modifier = Modifier)
 }
