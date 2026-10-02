@@ -69,6 +69,13 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = Color.Black
             )
+
+            Text(
+                text = "Safira Dwi Khairunisa",
+                fontSize = 16.sp,
+                fontWeight = FontWeight.Bold,
+                color = Color.Black
+            )
         }
     }
 }
