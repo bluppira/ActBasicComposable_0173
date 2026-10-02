@@ -53,15 +53,7 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 color = Color.White
             )
 
-            Spacer(modifier = Modifier.height(40.dp))
-
-            Image(
-                painter = painterResource(id = R.drawable.james),
-                contentDescription = null,
-                modifier = Modifier.size(150.dp)
-            )
-
-            Spacer(modifier = Modifier.height(60.dp))
+            Spacer(modifier = Modifier.height(250.dp))
 
             Text(
                 text = "Nama",
@@ -100,3 +92,8 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
     }
 }
 
+@Preview(showBackground = true)
+@Composable
+fun HalamanLoginPreview() {
+    HalamanLogin()
+}
